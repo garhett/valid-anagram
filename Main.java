@@ -30,8 +30,6 @@ class Main {
 		return true;
 	}
 
-	// compare c in cat with all letters of tac. If c doesn't equal any letters in tac, then return false. Otherwise, go to a in cat and compare again.
-
 	public static void main(String[] args) {
 		System.out.println("is valid anagram? " + isValidAnagram("cat", "tac")); // should be true
 		System.out.println("is valid anagram? " + isValidAnagram("listen", "silent")); // should be true
